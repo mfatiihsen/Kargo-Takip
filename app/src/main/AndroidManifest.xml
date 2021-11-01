@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mfs.takip_kargo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoorj"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoorj"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name="org.example.takip_kargo.Social_Media"></activity>
+        <activity android:name="org.example.takip_kargo.Puanla" />
+        <activity android:name="org.example.takip_kargo.Applications" />
+        <activity android:name="org.example.takip_kargo.Iletisim" />
+        <activity android:name="org.example.takip_kargo.Menu_Activity" />
+        <activity android:name="org.example.takip_kargo.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.example.takip_kargo.aras" />
+        <activity android:name="org.example.takip_kargo.yurt_ici" />
+        <activity android:name="org.example.takip_kargo.ups" />
+        <activity android:name="org.example.takip_kargo.ptt" />
+        <activity android:name="org.example.takip_kargo.surat" />
+        <activity android:name="org.example.takip_kargo.mng" />
+        <activity android:name="org.example.takip_kargo.MainActivity" />
+
+
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4365766653931652~7497219946"/>
+        //ca-app-pub-4365766653931652~7497219946
+    </application>
+
+</manifest>

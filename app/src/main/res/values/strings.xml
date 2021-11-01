@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kargo Takip</string>
+    <string name="hello">K T S</string>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">#FF9800</item>
+    </style>
+
+    <style name="ProgressBarStyle2">
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <string name="mfs"> K T S</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_view_open">Open Navigation Drawer</string>
+    <string name="navigation_view_close">Close Navigation Drawer</string>
+
+</resources>

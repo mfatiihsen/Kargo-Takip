@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_rectangle_background"
+    tools:context=".aras">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_aras"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/header_background"
+        app:title="Aras Kargo" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_aras"
+        android:layout_centerInParent="true"
+        android:background="@drawable/white_rectangle_background">
+
+        <WebView
+            android:id="@+id/web_view_aras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4365766653931652/3216393263"
+        tools:ignore="MissingConstraints" />
+
+
+    <RelativeLayout
+        android:id="@+id/surat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/progres_layout_background">
+
+        <ProgressBar
+            android:id="@+id/progresBar_surat"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:background="@color/colorBackground"
+            android:theme="@style/ProgressBarStyle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progresBar_surat"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:text="ARAS Kargo Yükleniyor..."
+            android:textAppearance="@style/Theme.Design"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

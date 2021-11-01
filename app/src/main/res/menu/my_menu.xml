@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <item
+        android:title="Discord"
+        android:id="@+id/discord"
+        android:icon="@drawable/ic_phone"/>
+
+    <item
+        android:title="WhatsApp"
+        android:id="@+id/wp"
+        android:icon="@drawable/ic_phone"/>
+
+    <item
+        android:title="İletişim"
+        android:id="@+id/content_phone"
+        android:icon="@drawable/ic_phone"/>
+
+</menu>
